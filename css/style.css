@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*=======================================================================================================*/
+
+
+
+
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-grafick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    /*border: 3px solid #000;*/
+    margin: 10px;
+    padding: 10px;
+    gap: 120px;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 100%;
+    /*border: 3px solid #000;*/
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+.month {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 30%;
+    min-width: 333px;
+    max-height: 100%;
+    min-height: 370px;
+    /*border: 3px solid #000;*/
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img {
+    width: 20px;
+    height: 20px;
+}
+.img-final {
+    width: 40px;
+    height: 40px;
+}
+.img img,
+.img-final img {
+    width: 100%;
+}
+.date {
+    /*border: 3px solid #000;*/
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.date span {
+    font-size: 20px;
+}
+.water {
+    position: absolute;
+    top: 40px;
+    left:98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.cold {
+    /*border: 3px solid #000;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 5px;
+}
+.hot {
+    /*border: 3px solid #000;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 5px;
+}
+.electricity {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.electricity_content,
+.water_content {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 5px;
+}
+.water_cont,
+.electricity_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 10px;
+    /*border: 3px solid #000;*/
+}
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 10px;
+    /*border: 3px solid #000;*/
+}
+.thre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 10px;
+    /*border: 3px solid #000;*/
+}
+.rent {
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    top: 175px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.rent-meaning {
+    /*border: 3px solid #000;*/
+    font-size: 20px;
+}
+.utility-payment {
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    top: 175px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.utility-payment_meaning {
+    /*border: 3px solid #000;*/
+    font-size: 20px;
+}
+.additional-conditions {
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    top: 270px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.additional-conditions_meaning {
+    /*border: 3px solid #000;*/
+    font-size: 20px;
+}
+.remains {
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    top: 270px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.remains_meaning {
+    /*border: 3px solid #000;*/
+    font-size: 20px;
+}
+.final-assessment {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.grafick2022 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 98%;
+    height: 100%;
+    padding: 10px;
+    gap: 50px;
+    /*border: 1px solid #f00606;*/
+}
+
+.growth-water2022 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 95%;
+    /*border: 1px solid #0a06f0;*/
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.water-consumption2022 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 95%;
+    /*border: 1px solid #0a06f0;*/
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.growth-electricity2022 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 95%;
+    /*border: 1px solid rgb(204, 238, 10);*/
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.electricity-consumption2022 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 95%;
+    /*border: 1px solid rgb(204, 238, 10);*/
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.utility-bills2022 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grafick2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 98%;
+    height: 100%;
+    padding: 10px;
+    gap: 50px;
+    /*border: 1px solid #f00606;*/
+}
+.growth-water2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.water-consumption2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.growth-electricity2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.electricity-consumption2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.utility-bills2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 913px) {
+    .wrapper-grafick {
+        width: 98%;
+        margin: 3px;
+        padding: 3px;
+        gap: 40px;
+    }
+    .grafick2022,
+    .grafick2023 {
+        width: 100%;
+        padding: 10px;
+        gap: 20px;
+    }
+    .growth-water2022,
+    .water-consumption2022,
+    .growth-electricity2022,
+    .electricity-consumption2022,
+    .utility-bills2022,
+    .growth-water2023,
+    .water-consumption2023,
+    .growth-electricity2023,
+    .electricity-consumption2023,
+    .utility-bills2023 {
+        width: 100%;
+    }    
+  }
