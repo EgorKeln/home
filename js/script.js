@@ -382,6 +382,202 @@ Highcharts.chart('utility-bills2023', {
 
 
 
+Highcharts.chart('growth-water2024', {
+    chart: {
+        type: 'line'
+    },
+    title: {
+        text: 'Вода - рост показателей приборов учёта'
+    },
+    xAxis: {
+        categories: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+    },
+    yAxis: {
+        title: {
+            text: 'м³'
+        }
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {enabled: true},
+            enableMouseTracking: false
+        }
+    },
+    series: [{
+        name: 'ГВС',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+        name: 'ХВС',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }]
+});
+Highcharts.chart('water-consumption2024', {
+    chart: {
+        type: 'line'
+    },
+    title: {
+        text: 'Расход воды'
+    },
+    xAxis: {
+        categories: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+    },
+    yAxis: {
+        title: {
+            text: 'м³'
+        }
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {enabled: true},
+            enableMouseTracking: false
+        }
+    },
+    series: [{
+        name: 'ГВС',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+        name: 'ХВС',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }]
+});
+
+
+
+
+//=======================================================================================
+
+
+
+
+Highcharts.chart('growth-electricity2024', {
+    chart: {
+        type: 'line'
+    },
+    title: {
+        text: 'Электричество - рост показателей приборов учёта'
+    },
+    xAxis: {
+        categories: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+    },
+    yAxis: {
+        title: {
+            text: 'кВт'
+        }
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {enabled: true},
+            enableMouseTracking: false
+        }
+    },
+    series: [{
+        name: 'Свет-1',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+        name: 'Свет-2',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+        name: 'Свет-3',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }]
+});
+Highcharts.chart('electricity-consumption2024', {
+    chart: {
+        type: 'line'
+    },
+    title: {
+        text: 'Расход электричества'
+    },
+    xAxis: {
+        categories: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+    },
+    yAxis: {
+        title: {
+            text: 'кВт'
+        }
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {enabled: true},
+            enableMouseTracking: false
+        }
+    },
+    series: [{
+        name: 'Свет-1',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+        name: 'Свет-2',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+        name: 'Свет-3',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }]
+});
+
+
+
+
+//=======================================================================================
+
+
+
+
+Highcharts.chart('utility-bills2024', {
+    chart: {
+        type: 'line'
+    },
+    title: {
+        text: 'Коммунальные платежи'
+    },
+    xAxis: {
+        categories: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+    },
+    yAxis: {
+        title: {
+            text: '₽'
+        }
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {enabled: true},
+            enableMouseTracking: false
+        }
+    },
+    series: [{
+        name: 'платежи',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }]
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
